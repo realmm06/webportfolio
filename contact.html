@@ -7,7 +7,7 @@
 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
 
-	<title>Rea Mena | Portfolio</title>
+	<title>Contact</title>
 
 	<!-- Google Font Courier Prime -->
 	<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@0;1&display=swap" rel="stylesheet">
@@ -18,23 +18,90 @@
 <body>
 
     <div class="bg-secondary p-3 d-flex">
-        <div class="p-3 mr-auto text-light">
-        	<a href="./index.html">Rea</a>
+        <div class="p-3 mr-auto">
+        	<a href="./index.html" class="text-light">Rea</a>
         </div>
         <div class="d-flex">
-            <div class="p-3 text-light">
-            	<a href="./projects.html">Projects</a>
+            <div class="p-3">
+            	<a href="./projects.html" class="text-light">Projects</a>
             </div>
-            <div class="p-3 text-light">
-            	<a href="./tools.html">Tools</a>
+            <div class="p-3">
+            	<a href="./tools.html" class="text-light">Tools</a>
             </div>
-            <div class="p-3 text-light">
-            	<a href="./contact.html">Contact</a>
+            <div class="p-3">
+            	<a href="./contact.html" class="text-light">Contact</a>
             </div>
         </div>
     </div>
 
+	<div class="container-fluid">
+		
+		<div class="row">
+			<div class="pt-3 pb-3 col-md-4 col-12">
+				<h1>Hi.</h1>
+				<h3>Let me know how I can help you.</h3>
+				<h3>Email: <a href="mailto:realmm06@gmail.com" class="text-dark">realmm06@gmail.com</a></h3>
+			</div>
+			<div class="pt-3 pb-3 col-md-8 col-12">
+				<div class="container-fluid">
 
+					<h1 class="mb-3">Contact Me</h1>
+
+ 					<div class="col-12">	
+						<div class="row border border-secondary p-3 col-12 col-md-8">
+
+							<div class="col-12">
+								
+						    	<form>
+						    		<div class="form-group">
+						    			<label for="formGroupName">Name</label>
+						    			<input type="text" class="form-control" id="formGroupName" placeholder="Your Name">
+						    		</div>
+
+						    		<div class="form-group">
+						    		    <label for="formGroupEmail">Email</label>
+						    		    <input type="email" class="form-control" id="formGroupEmail" placeholder="name@example.com">
+						    		</div>
+
+						    		<div class="form-group">
+							    		<label for="formGroupMessage">Message</label>
+							    		<textarea name="message" rows="5" id="formGroupMessage" class="form-control">	
+							    		</textarea>
+						    		</div>
+
+						    		<div class="form-group">
+							    		<button type="button" class="btn btn-dark text-light" data-toggle="modal" data-target="#exampleModal">Send Email</button>
+						    		</div>
+						    	</form>
+						    	
+						    </div>
+						</div>
+					</div>
+
+					<div class="modal" tabindex="-1" id="exampleModal">
+					  	<div class="modal-dialog">
+					    	<div class="modal-content">
+					      		<div class="modal-header">
+					        		<h5 class="modal-title text-dark">Thank you for contacting us!</h5>
+					        		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          			<span aria-hidden="true">&times;</span>
+					        		</button>
+					      		</div>
+					      		<div class="modal-body text-dark">
+					        		<p>Message Successfully Sent</p>
+					      		</div>
+					      		<div class="modal-footer">
+					        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					        	</div>
+					    	</div>
+					  	</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
 
 
 
