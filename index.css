@@ -6,6 +6,18 @@
 	font-size: 100px;
 }
 
+p {
+	font-size: 16px;
+}
+
+a:hover {
+	font-style: italic;
+}
+
+.card-width {
+	width: 20rem;
+}
+
 @media screen and (max-width: 600px) {
 	.h1-index {
     	font-size: 80px;

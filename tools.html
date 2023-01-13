@@ -17,60 +17,167 @@
 </head>
 <body>
 
-    <div class="bg-secondary p-3 d-flex">
-        <div class="p-3 mr-auto">
-        	<a href="./index.html" class="text-light">Rea</a>
-        </div>
-        <div class="d-flex">
-            <div class="p-3">
-            	<a href="./projects.html" class="text-light">Projects</a>
-            </div>
-            <div class="p-3">
-            	<a href="./tools.html" class="text-light">Tools</a>
-            </div>
-            <div class="p-3">
-            	<a href="./contact.html" class="text-light">Contact</a>
-            </div>
-        </div>
-    </div>
+	<!-- Navigator -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	  	<a class="navbar-brand" href="./index.html" class="text-light">Rea</a>
+	  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	    	<span class="navbar-toggler-icon"></span>
+	  	</button>
+	  	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	    	<div class="navbar-nav">
+	      		<a class="nav-link" href="./projects.html" class="text-light">Projects </a>
+	      		<a class="nav-link active" href="./tools.html" class="text-light">Tools<span class="sr-only">(current)</span></a>
+	      		<a class="nav-link" href="./contact.html" class="text-light">Contact</a>
+	    	</div>
+	  	</div>
+	</nav>
 
 	<div class="container-fluid">
 		
 		<div class="row">
+
+			<!-- Left Side -->
 			<div class="pt-3 pb-3 col-md-4 col-12">
-				<p class="text-justify">
-					This is a list of tools I have used for work. Most of my projects dealt with COBOL development, manual testing of web applications and Front-end web development using content management systems.
+				<p class="text-left">
+					This is a list of tools I have used for work. Most of my projects dealt with Full-Stack Web Development, COBOL development, and manual software testing.
 				</p>
 			</div>
+
+			<!-- Right Side -->
 			<div class="pt-3 pb-3 col-md-8 col-12">
 
 				<h1 class="mb-3">Tools</h1>
 
-				<div class="row">
-					<div class="col">
-						<h2>IBM Cobol</h2>
-						<h2>DB2</h2>
-						<h2>CICS</h2>
-						<h2>Microfocus Cobol</h2>
-						<h2>Fujitsu NetCobol</h2>
-						<h2>MS SQL</h2>
-					</div>
-					
-					<div class="col">
-						<h2>Oracle</h2>
-						<h2>Quality Center</h2>
-						<h2>Service Now</h2>
-						<h2>HTML</h2>
-						<h2>CSS</h2>
-						<h2>Salesforce</h2>
-					</div>
+				<div class="accordion" id="accordionExample">
+				  	<div class="card">
+					    <div class="card-header" id="headingOne">
+					      	<h2 class="mb-0">
+					        	<button class="btn btn-link btn-block text-center text-dark" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+					          	Full-Stack Web Development
+					        	</button>
+					      	</h2>
+					    </div>
+
+					    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+				      		<div class="card-body">
+
+				      			<div class="border border-secondary p-3">
+					      			<h2 class="text-center">CORE TOOLS</h2>
+							      	<div class="container-fluid d-flex flex-column text-center p-1">
+								      	<div class="row align-items-center justify-content-center">
+									      	<div class="col">    
+									      	    <img width="150" src="./images/logo-html5.png"/>
+									      		<h2>HTML</h2>
+									      	</div>
+									      	<div class="col">    
+									      	    <img width="150" src="./images/logo-css3.png"/>
+									      		<h2>CSS</h2>
+									      	</div>
+									      	<div class="col">    
+									      	    <img width="150" src="./images/logo-javascript.png"/>
+									      	    <h2>Javascript</h2>
+									      	</div>
+								      	</div>
+								    </div>
+								</div>    
+
+				      			<div class="border border-secondary p-3">
+								    <h2 class="text-center p-3">OTHER TOOLS</h2>
+								    <div class="container-fluid d-flex flex-column text-center p-1">
+								    	<div class="row align-items-center justify-content-center">
+								        	<div class="col">
+									            <img width="120" src="./images/logo-mongodb.png"/>
+									            <h2>MongoDB</h2>
+									        </div>
+									        <div class="col">
+									            <img width="120" src="./images/logo-nodejs.png"/>
+									            <h2>NodeJS</h2>
+									        </div>    
+									        <div class="col">
+									            <img width="120" src="./images/logo-expressjs.png"/>
+									            <h2>ExpressJS</h2>
+									        </div>    
+									        <div class="col">
+									            <img width="120" src="./images/logo-react.png"/>
+									            <h2>React</h2>
+									        </div>    
+									        <div class="col">
+									            <img width="120" src="./images/logo-heroku.png"/>
+									            <h2>Heroku</h2>
+									        </div>    
+									        <div class="col">
+									            <img width="120" src="./images/logo-git.png"/>
+									            <h2>Git</h2>
+									        </div>    
+									        <div class="col">
+									            <img width="120" src="./images/logo-sublime-text-3.png"/>
+									            <h2>Sublime Text</h2>
+									        </div>    
+									        <div class="col">
+									            <img width="120" src="./images/logo-postman.png"/>
+									            <h2>Postman</h2>
+									        </div>    
+									        <div class="col">
+									            <img width="120" src="./images/logo-gitlab-ci-cd.png"/>
+									            <h2>GitLab</h2>
+								        	</div>
+
+								        </div>
+								    </div>
+								</div>    
+
+				      		</div>
+				    	</div>
+				  	</div>
+
+					<div class="card">
+					    <div class="card-header" id="headingTwo">
+					      	<h2 class="mb-0">
+					        	<button class="btn btn-link btn-block text-center text-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+					          	COBOL Development
+					        	</button>
+					      	</h2>
+					    </div>
+					    
+					    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+					    	<div class="card-body text-center">
+
+						      	<h2>IBM Cobol</h2>
+						      	<h2>DB2</h2>
+						      	<h2>CICS</h2>
+						      	<h2>Microfocus Cobol</h2>
+						      	<h2>Fujitsu NetCobol</h2>
+
+					      	</div>
+					    </div>
+				  	</div>
+
+				  	<div class="card">
+				    	<div class="card-header" id="headingThree">
+				      		<h2 class="mb-0">
+				        		<button class="btn btn-link btn-block text-center text-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				          		Software Testing
+				        		</button>
+				      		</h2>
+				    	</div>
+				    	<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+				      		<div class="card-body text-center">
+				        
+								<h2>MS SQL</h2>
+						      	<h2>Oracle</h2>
+						      	<h2>Quality Center</h2>
+						      	<h2>Service Now</h2>
+								<h2>Salesforce</h2>
+
+					      	</div>
+				    	</div>
+				  	</div>
 				</div>
 
 			</div>
 		</div>
 
 	</div>
-
 
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
